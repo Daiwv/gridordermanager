@@ -14,7 +14,7 @@ CAvOrder* AvOrder;
 int OnInit()
 {
     AvOrder = new CAvOrder(123, "EURUSD", OP_BUY, 0.5, 1.24105, D'2018.02.19 11:25', 12, 1.23500, 1.24500, "Test", 0, clrRed);
-    EventSetTimer(10);
+    EventSetTimer(60);
     return(INIT_SUCCEEDED);
 }
 
